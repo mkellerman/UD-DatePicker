@@ -1,5 +1,5 @@
 Import-Module -Name UniversalDashboard.Community
-Import-Module "C:\UD\UDatePicker\DayPicker\src\output\UniversalDashboard.DayPicker\UniversalDashboard.DayPicker.psd1"
+Import-Module UniversalDashboard.DayPicker
 Get-UDDashboard | Stop-UDDashboard
 Start-UDDashboard -Port 10005 -Dashboard (
     New-UDDashboard -Title "Powershell UniversalDashboard" -Content {
